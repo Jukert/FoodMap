@@ -1,0 +1,187 @@
+.panel__account{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.text__top{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(123, 123, 123, 0.71);
+    color: white;
+}
+
+.form__select{
+    width: 100%;
+    background-color: rgba(123, 123, 123, 0.71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.panel__account>form{
+    width: 100%;
+}
+
+.form__registration{
+    width: 100%;
+    background-color: rgba(123, 123, 123, 0.71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    justify-content: space-around;
+}
+
+.form__authorization,.form__authorization,.form__details{
+    width: 100%;
+    background-color: rgba(123, 123, 123, 0.71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    justify-content: space-around;
+}
+
+
+.form__registration>input,.form__authorization>input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.27);
+    width: 50%;
+    height: 30px;
+    color: black;
+    text-align: center;
+}
+.form__details>.details{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 30px;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form__registration>input:last-child,.form__authorization>input:last-child{
+    margin-bottom: 30px;
+}
+
+.button__authorization,.button__registration{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    color: black;
+    font-family: "Uni Sans";
+}
+::-moz-placeholder{
+    text-align: center;
+    color: black;
+    font-family: "Uni Sans";
+}/* Firefox 19+ */
+:-moz-placeholder{
+    text-align: center;
+    color: black;
+    font-family: "Uni Sans";
+}/* Firefox 18- */
+:-ms-input-placeholder{
+    text-align: center;
+    color: black;
+    font-family: "Uni Sans";
+}
+
+.button__accept--registration{
+    background-color: rgba(123, 123, 123, 0.71);
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__accept--authorization,.button__exit{
+    background-color: rgba(123, 123, 123, 0.71);
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__accept--authorization>button,.button__exit>button{
+    color: white;
+    background-color: red;
+    width: 40%;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    border: 0;
+    font-family: "Uni Sans";
+}
+
+.button__accept--registration>button{
+    color: white;
+    background-color: red;
+    width: 40%;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    border: 0;
+    font-family: "Uni Sans";
+}
+
+
+.form__authorization>button{
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.form__select>a{
+    text-decoration: none;
+    color: black;
+    width: 60%;
+}
+
+
+@media (max-width: 900px) {
+    .panel__account {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+
+    .button__accept--registration > button {
+        width: 65% !important;
+    }
+}

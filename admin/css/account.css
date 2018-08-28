@@ -1,0 +1,195 @@
+.panel__account{
+    width: 50%;
+    margin-left: 25%;
+}
+
+@font-face {
+    font-family: "Mont";
+    src: url("../assets/font/Mont.ttf");
+}
+
+.text__top{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(123, 123, 123, 0.71);
+    color: white;
+}
+
+.form__select{
+    width: 100%;
+    background-color: rgba(123, 123, 123, 0.71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.panel__account>form{
+    width: 100%;
+}
+
+.form__registration{
+    width: 100%;
+    background-color: rgba(123, 123, 123, 0.71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    justify-content: space-around;
+}
+
+.form__authorization,.form__authorization,.form__details{
+    width: 100%;
+    background-color: rgba(123, 123, 123, 0.71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    justify-content: space-around;
+}
+
+
+.form__registration>input,.form__authorization>input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.27);
+    width: 50%;
+    height: 30px;
+    color: black;
+    text-align: center;
+}
+
+.panel__add-catering>form>input,.panel__add-catering>form>select{
+    border: 1px solid rgba(0, 0, 0, 0.27);
+    color: gray;
+    text-align: center;
+    font-family: "Mont";
+    font-size: 20px;
+}
+
+.form__details>.details{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 30px;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form__registration>input:last-child,.form__authorization>input:last-child{
+    margin-bottom: 30px;
+}
+
+.button__authorization,.button__registration{
+    width: 60%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    color: black;
+    font-family: "Mont";
+}
+::-moz-placeholder{
+    text-align: center;
+    color: black;
+    font-family: "Mont";
+}/* Firefox 19+ */
+:-moz-placeholder{
+    text-align: center;
+    color: black;
+    font-family: "Mont";
+}/* Firefox 18- */
+:-ms-input-placeholder{
+    text-align: center;
+    color: black;
+    font-family: "Mont";
+}
+
+.button__accept--registration{
+    background-color: rgba(123, 123, 123, 0.71);
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__accept--authorization{
+    background-color: rgba(123, 123, 123, 0.71);
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button__add{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__accept--authorization>button,.button__add>button{
+    color: white;
+    background-color: red;
+    width: 40%;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    border: 0;
+    font-family: "Uni Sans";
+}
+
+.button__accept--registration>button{
+    color: white;
+    background-color: red;
+    width: 40%;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    border: 0;
+    font-family: "Uni Sans";
+}
+
+
+.form__authorization>button{
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.button__authorization>a,.button__registration>a{
+    text-decoration: none;
+    color: black;
+}

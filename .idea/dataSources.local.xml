@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="lol@localhost" uuid="a70a3dd5-0c64-4aab-af93-5dfe4f3e0dc6">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:lol</introspection-schemas>
+    </data-source>
+    <data-source name="foodmap@localhost" uuid="768a4a73-a1ad-4aa8-aef7-cf8f8a47cced">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>root</user-name>
+      <introspection-schemas>*:foodmap</introspection-schemas>
+    </data-source>
+    <data-source name="vacancy@localhost" uuid="fd16f7ad-703b-463b-8ccc-bbef7f0a5b75">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:vacancy</introspection-schemas>
+    </data-source>
+  </component>
+</project>

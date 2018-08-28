@@ -1,0 +1,18 @@
+#map{
+    height: 80%;
+}
+
+.result-search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.result-search>p{
+    font-size: 300%;
+    font-family: "Uni Sans";
+    color: rgb(37,37,37);
+}

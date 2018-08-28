@@ -1,0 +1,416 @@
+html,body,.page{
+    width: 100%;
+    height: 100%;
+}
+
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.line-menu{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 45%;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li{
+    font-family: "Uni Sans";
+}
+
+@font-face {
+    src: url("../assets/font/uni_sans_heavy_italic.ttf");
+    font-family: Uni Sans;
+}
+
+@media (max-width: 950px) {
+    .menu{
+        width: 55%;
+    }
+
+    .menu ul a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu{
+        width: 80%;
+    }
+}
+
+
+.food-map>p{
+    font-size: 500%;
+    font-family: "Uni Sans";
+    color: rgb(122,122,122);
+}
+
+@media (max-width: 550px) {
+    .menu{
+        width: 100%;
+    }
+    .food-map>p{
+        font-size: 400%;
+        font-family: "Uni Sans";
+    }
+
+}
+
+.food-map{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.text,.type,.cost,.radius,.start{
+    width: 60%;
+    background-color: rgba(123, 123, 123, 0.71);
+    margin-top: 5px;
+    color: white;
+    font-size: 24px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-family: "Uni Sans";
+}
+
+.types{
+    width: 100%;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    padding: 25px 0;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+
+    .categories>p{
+        font-size: 14px;
+    }
+
+
+    .text,.type,.cost,.radius,.start{
+        width: 95%;
+    }
+
+
+}
+
+.type-up,.type-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.costs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cheap{
+    color: green;
+}
+
+.middle{
+    color: #dcdc00;
+}
+
+.expensive{
+    color: red;
+}
+
+.selected-radius{
+    width: 80%;
+    margin-top: 30px;
+}
+
+.start-button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button-accept{
+    width: 35%;
+    font-size: 35px;
+    color: white;
+    background-color: #f00000;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Uni Sans";
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 5%;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.menu-footer{
+    width: 40%;
+    margin-top: 30px;
+}
+
+.menu-footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-footer ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-footer ul li{
+    font-family: "Uni Sans";
+}
+
+
+@media (max-width: 750px) {
+    .button-accept{
+        font-size: 16px;
+    }
+}
+
+.text__radius{
+    width: 80%;
+}
+
+.text__radius>p{
+    position: relative;
+    top: 20px;
+    width: 25%;
+}
+
+.block__red--foodplace>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+.block__red--foodplace{
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgba(255, 255, 255, 0.81);
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image__foodplace,.image__foodplace>img{
+    width: 200px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.content__foodplace{
+    margin-bottom: 10px;
+}
+
+.block-text__foodplace{
+    width: 80%;
+    height: 90%;
+}
+
+.description__foodplace{
+    height: 80%;
+    margin-right: 10px;
+    color: gray;
+}
+
+.uploadsImg{
+    width: 30%;
+}
+
+.uploadsImg>img{
+    width: 100%;
+    height: 266px;
+}
+
+#drop-area{
+    width: 300px;
+    height: 300px;
+    background-image: url('../../assets/image/upload.png');
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.x{
+    position: relative;
+    top: -289px;
+    left: 15%;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.check-marker{
+    width: 70%;
+    background-color: red;
+    color: white;
+    border: 0px;
+    height: 40px;
+    font-size: 29px;
+    font-family: "Uni Sans";
+}
+
+.block-map{
+    margin-top: 10px;
+    width: 80%;
+    height: 400px;
+}
+
+.block-map>div{
+    height: 100% !important;
+}
+
+@media (max-width: 1820px) {
+
+    .block-text__foodplace {
+
+        width: 75%;
+        height: 90%;
+
+    }
+
+    .description__foodplace > p {
+
+        font-size: 14px;
+
+    }
+
+
+}
+
+
+@media (max-width: 1430px) {
+
+    .block-text__foodplace {
+
+        width: 72%;
+        height: 90%;
+
+    }
+
+    .description__foodplace > p {
+
+        font-size: 13px;
+
+    }
+
+
+}
